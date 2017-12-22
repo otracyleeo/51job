@@ -16,4 +16,4 @@ class Job51Pipeline(object):
             zhiweiyaoqiu = item['zhiweiyaoqiu']
             lianjie = item['lianjie']
             Sql.insert_job51(zhiwei, gongsi, didian, xinzi, gongsileixing, guimo, hangye, jingyan, xueli, fuli, zhiweiyaoqiu, lianjie)
-            print('开始读取职位信息')
+            print('写入职位信息')
